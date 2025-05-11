@@ -8,7 +8,7 @@
 </head>
 <body class="bg-[#2C2D33]">
 
-    <nav class="bg-[#2C2D33] shadow-lg">
+    <nav class="bg-[#2C2D33] shadow-lg sticky top-0 z-10">
         <div class="container mx-auto">
             <div class="sm:flex justify-between items-center text-white py-5 ">
                 <div class="text-center mb-4"> 
@@ -31,7 +31,7 @@
         <div class="container mx-auto sm:flex justify-around items-center text-white text-center h-[80vh] border border-indigo-600 border-t-0 mt-2 px-10 pt-10">
               <div>
                 <h1 class="text-3xl sm:text-5xl mb-5 sm:mb-16">Smart Coders Learn <br> Programming</h1>
-                <button class="bg-indigo-500 py-3 px-7 rounded-full sm:text-xl ">Join: Our Programming Team
+                <button class="bg-indigo-500 py-3 px-7 rounded-full sm:text-xl hover:bg-indigo-700 transition">Join: Our Programming Team
                      <svg class="w-8 inline-block text-red-700 animate-ping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                   </svg>
@@ -47,40 +47,91 @@
 
     <main class="container mx-auto">
 
-        <section class="mt-24">
+        <section class="mt-24 mb-16">
             <h1 class="text-3xl sm:text-5xl mb-5 sm:mb-16 text-center  text-white animate-bounce">Our <span class="">Services</span></h1>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <div class="box hover:border-2 border-indigo-600 transition duration-200 hover:scale-105 ">
                     <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="">
                     <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Font End Development</h1>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quidem.</p>
                 </div>
                  <div class="box hover:border-2 border-indigo-600 transition duration-200 hover:scale-105 ">
-                    <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="">
-                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Font End Development</h1>
+                    <img class="w-1/2 mx-auto h-1/2" src="images/backEnd.png" alt="">
+                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Back end Development</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quidem.</p>
+                </div>
+                 <div class="box hover:border-2 border-indigo-600 transition duration-200 hover:scale-105 ">
+                    <img class="w-1/2 mx-auto h-1/2" src="images/javascript.png" alt="">
+                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Java Script Full course</h1>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quidem.</p>
                 </div>
                  <div class="box hover:border-2 border-indigo-600 transition duration-200 hover:scale-105 ">
                     <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="">
-                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Font End Development</h1>
+                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Next js Complete course</h1>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quidem.</p>
                 </div>
                  <div class="box hover:border-2 border-indigo-600 transition duration-200 hover:scale-105 ">
                     <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="">
-                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Font End Development</h1>
+                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Laravel Complete course</h1>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quidem.</p>
                 </div>
                  <div class="box hover:border-2 border-indigo-600 transition duration-200 hover:scale-105 ">
                     <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="">
-                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Font End Development</h1>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quidem.</p>
-                </div>
-                 <div class="box hover:border-2 border-indigo-600 transition duration-200 hover:scale-105 ">
-                    <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="">
-                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Font End Development</h1>
+                    <h1 class="text-white text-2xl sm:text-3xl underline underline-offset-8 my-6">Mongo db Complete course</h1>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quidem.</p>
                 </div>
                
+            </div>
+        </section>
+
+
+        <section class="bg-[#1f2937] py-16 mb-10 sm:py-40 grid place-content-center text-center">
+
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-16 md:gap-x-48">
+                  <div class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white text-center">
+                    <p class="text-yellow-500 mb-5 animate-bounce">My Clients</p>
+                    <h1>My Take care of <br> more <span class="underline decoration-orange-400 underline-offset-8">then 100+</span> <br> Customers</h1>
+                  </div>
+
+                  <div class="grid md:grid-cols-2 lg:grid-cols-3 ga-5 sm:gap-5 md:gap-10 lg:gap-16 text-white">
+                      <div>
+                          <img src="images/client-01.png" alt="">
+                          <h1 class="mt-2">One Pluse</h1>
+                      </div>
+                      <div>
+                          <img src="images/client-02.png" alt="">
+                          <h1 class="mt-2">Tencent</h1>
+                      </div>
+                      <div>
+                          <img src="images/client-03.png" alt="">
+                          <h1 class="mt-2">Apple</h1>
+                      </div>
+                      <div>
+                          <img src="images/client-04.png" alt="">
+                          <h1 class="mt-2">Microsoft</h1>
+                      </div>
+                      <div>
+                          <img src="images/client-05.png" alt="">
+                          <h1 class="mt-2">Lenovo</h1>
+                      </div>
+                      <div>
+                          <img src="images/client-06.png" alt="">
+                          <h1 class="mt-2">Huawei</h1>
+                      </div>
+                      <div>
+                          <img src="images/client-07.png" alt="">
+                          <h1 class="mt-2">Nexus</h1>
+                      </div>
+                      <div>
+                          <img src="images/client-08.png" alt="">
+                          <h1 class="mt-2">Tesla</h1>
+                      </div>
+                      <div>
+                          <img src="images/client-09.png" alt="">
+                          <h1 class="mt-2">Brave</h1>
+                      </div>
+
+                  </div>
             </div>
         </section>
 
