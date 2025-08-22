@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Project</title>
+    <title>Learn with Us Confidently</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="bg-[#2C2D33]">
@@ -16,10 +16,10 @@
                 </div>
                 <ul class="sm:flex text-center border-t sm:border-none">
                     <li class="mt-4 sm:mt-0"><a class="p-3  text-[#E76137] text-lg" href="#">Home</a></li>
-                    <li><a class="p-3 hover:text-[#E76137] text-lg" href="#">Products</a></li>
-                    <li><a class="p-3 hover:text-[#E76137] text-lg" href="#">Blogs</a></li>
-                    <li><a class="p-3 hover:text-[#E76137] text-lg" href="#">Portfolio</a></li>
-                    <li><a class="p-3 hover:text-[#E76137] text-lg" href="#">contact</a></li>
+                    <li><a class="p-3 hover:text-[#E76137] text-lg" href="#service">Service</a></li>
+                    <li><a class="p-3 hover:text-[#E76137] text-lg" href="#blog">Blogs</a></li>
+                    <li><a class="p-3 hover:text-[#E76137] text-lg" href="#pricing">Price</a></li>
+                    <li><a class="p-3 hover:text-[#E76137] text-lg" href="#contact">contact</a></li>
                 </ul>
             </div>
         </div>
@@ -31,7 +31,7 @@
         <div class="container mx-auto sm:flex justify-around items-center text-white text-center h-[80vh] border border-indigo-600 border-t-0 mt-2 px-10 pt-10">
               <div>
                 <h1 class="text-3xl sm:text-5xl mb-5 sm:mb-16">Smart Coders Learn <br> Programming</h1>
-                <button class="bg-indigo-500 py-3 px-7 rounded-full sm:text-xl hover:bg-indigo-700 transition">Join: Our Programming Team
+                <button class="bg-indigo-500 py-3 px-7 rounded-full sm:text-xl hover:bg-indigo-700 transition">Join: shafi Programming Team
                      <svg class="w-8 inline-block text-red-700 animate-ping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                   </svg>
@@ -48,7 +48,7 @@
     <main class="container mx-auto">
 
         <!-- Services sections -->
-        <section class="mt-24 mb-16">
+        <section  id="service" class="mt-24 mb-16">
             <h1 class="text-3xl sm:text-5xl mb-5 sm:mb-16 text-center  text-white animate-bounce">Our <span class="">Services</span></h1>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <div class="box hover:border-2 border-indigo-600 transition duration-200 hover:scale-105 ">
@@ -87,7 +87,7 @@
 
 
         <!-- Clients sections -->
-        <section class="bg-slate-900 py-16 mb-10 sm:py-40 grid place-content-center text-center">
+        <section id="blog" class="bg-slate-900 py-16 mb-10 sm:py-40 grid place-content-center text-center">
 
             <div class="flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-16 md:gap-x-48">
                   <div class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white text-center">
@@ -136,27 +136,10 @@
                   </div>
             </div>
         </section>
-        <!-- input sections -->
 
-        <section class="bg-[#1f2937] py-16 mb-16 sm:py-20">
-              <div>
+          <!-- card section -->
 
-                <h1 class="text-center text-xl sm:text-3xl text-white mb-8">Ask a Questions</h1>
-
-                 <form action="">
- 
-                    <input class="block mx-auto px-5 border-2 border-orange-700 outline-none focus focus:border-blue-300 rounded-md placeholder:text-orange-700 placeholder:italic h-12 w-5/6 sm:w-1/2 mb-8 " type="email" placeholder="Enter your email">
-
-                    <textarea class="block mx-auto px-5 border-2 border-orange-700 outline-none focus focus:border-blue-300 rounded-md placeholder:text-orange-700 placeholder:italic py-5 h-40 sm:h-52 w-5/6 sm:w-1/2 mb-8 " placeholder="Your Questions" name="" id=""></textarea>
-
-                    <button class="block mx-auto  bg-green-800 hover:bg-green-600 transition text-white text-xl sm:text-2xl py-3 px-6 rounded-sm mt-50 mb-10">Send Now</button>
-                 </form>
-              </div>
-        </section>
-
-        <!-- card section -->
-
-        <section class="bg-slate-900 py-16 my-16 sm:my-20 sm:py-24 px-10">
+        <section id="pricing" class="bg-slate-900 py-16 my-16 sm:my-20 sm:py-24 px-10">
 
             <div class="text-white grid md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-16 lg:gap-24">
                  <div class="border border-white rounded-sm p-10 hover:shadow-sm hover:shadow-orange-100 hover:scale-105 transition duration-300 ease-in-out sm:hover:rotate-1">
@@ -209,6 +192,25 @@
             </div>
         </section>
 
+        <!-- input sections -->
+
+        <section id="contact" class="bg-[#1f2937] py-16 mb-16 sm:py-20">
+              <div>
+
+                <h1 class="text-center text-xl sm:text-3xl text-white mb-8">Ask a Questions</h1>
+
+                 <form action="">
+ 
+                    <input class="block mx-auto px-5 border-2 border-orange-700 outline-none focus focus:border-blue-300 rounded-md placeholder:text-orange-700 placeholder:italic h-12 w-5/6 sm:w-1/2 mb-8 " type="email" placeholder="Enter your email">
+
+                    <textarea class="block mx-auto px-5 border-2 border-orange-700 outline-none focus focus:border-blue-300 rounded-md placeholder:text-orange-700 placeholder:italic py-5 h-40 sm:h-52 w-5/6 sm:w-1/2 mb-8 " placeholder="Your Questions" name="" id=""></textarea>
+
+                    <button class="block mx-auto  bg-green-800 hover:bg-green-600 transition text-white text-xl sm:text-2xl py-3 px-6 rounded-sm mt-50 mb-10">Send Now</button>
+                 </form>
+              </div>
+        </section>
+
+      
 
         <!-- subscribe section -->
 
@@ -227,6 +229,59 @@
             </div>
 
         </section>
+
+        <footer>
+          <div class="container mx-auto text-center sm:text-left">
+               <div class="sm:flex justify-around text-white">
+                    <div>
+                         <h2 class="text-xl sm:text-2xl mb-5"> My Account </h2>
+                         <ul class="leading-10">
+                              <li> <a href="#"> Creator Dashboard </a> </li>
+                              <li> <a href="#"> Wallet </a> </li>
+                              <li> <a href="#"> Create Item </a> </li>
+                              <li> <a href="#"> My Account </a> </li>
+                         </ul>   
+                    </div>
+                    <div>
+                         <h2 class="text-xl sm:text-2xl mb-5"> Web Links </h2>
+                         <ul class="leading-10">
+                              <li> <a href="#"> Collections </a> </li>
+                              <li> <a href="#"> Item Details </a> </li>
+                              <li> <a href="#"> Rankings </a> </li>
+                              <li> <a href="#"> User Profile </a> </li>
+                         </ul>   
+                    </div>
+                    <div>
+                         <h2 class="text-xl sm:text-2xl mb-5"> Community </h2>
+                         <ul class="leading-10">
+                              <li> <a href="#"> Blog Category </a> </li>
+                              <li> <a href="#"> Blog Author </a> </li>
+                              <li> <a href="#"> Blog </a> </li>
+                              <li> <a href="#"> Blog Details </a> </li>
+                         </ul>   
+                    </div>
+                    <div>
+                         <h2 class="text-xl sm:text-2xl mb-5"> Contact </h2>
+                         <ul class="leading-10">
+                              <li> <a href="#"> Dhaka, P.O. 1334 Road, Bangaladesh </a> </li>
+                              <li> <a href="#"> BD Author </a> </li>
+                              <li> <a href="#"> shafiul7sms@gmail.com </a> </li>
+                              <li> <a href="#"> Phone: 01314899710 </a> </li>
+                         </ul>   
+                    </div>
+               </div>
+
+               <hr class="my-16">
+
+               <div class="text-white sm:flex justify-between mb-20">
+                    <p> &copy; Copyright - 2025 - Designed by <span class="text-green-700"> Learn with shafi Programming Team </span> </p>
+
+                    <p> Privacy Policy | Term of Service </p>
+               </div>
+
+          </div>
+        </footer>
+
 
     </main>
 
